@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Popup.Master.cs" Inherits="Mitchell.ScmConsoles.Popup" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <table style="width: 100%;">
+            <tr>
+                <td style="vertical-align:top; text-align:right">
+                  <asp:Label ID="LabelUsername" runat="server" Font-Bold="True" Font-Size="Small" Font-Underline="True"></asp:Label>
+                    </td>
+            </tr>
+          
+        </table>
+    <div>
+        <asp:ContentPlaceHolder ID="PopupPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

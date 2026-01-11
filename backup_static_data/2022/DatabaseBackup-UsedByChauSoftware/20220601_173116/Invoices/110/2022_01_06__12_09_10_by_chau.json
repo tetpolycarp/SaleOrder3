@@ -1,0 +1,54 @@
+{
+  "CreatedBy": "chau on mobile",
+  "CustomerName": "Hoa",
+  "PhoneNumber": "7147228593",
+  "PickupDate": "1/12/2022 12:00:00 AM",
+  "InvoiceType": "Simple",
+  "InvoiceNumber": "110",
+  "InvoiceDate": "1/6/2022",
+  "Status": "Not_Pickup, Unpaid",
+  "OrderSaleItems": [
+    {
+      "Index": "1",
+      "PickupDate": "1/12/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Bánh Chưng",
+      "Quantity": "5",
+      "UnitPrice": "$ 20.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 100.00"
+    },
+    {
+      "Index": "2",
+      "PickupDate": "1/12/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Bánh Tét",
+      "Quantity": "1",
+      "UnitPrice": "$ 20.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 20.00"
+    },
+    {
+      "Index": "3",
+      "PickupDate": "1/12/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Dưa Món chai lớn",
+      "Quantity": "1",
+      "UnitPrice": "$ 12.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 12.00"
+    }
+  ],
+  "InvoiceOrders": null,
+  "Notes": "",
+  "GrandTotal": "$ 132.00",
+  "AlreadyPaid": "$ 0.00",
+  "AlreadyPaidByCheck": null,
+  "CheckNumber": null,
+  "RemainBalance": "$ 132.00",
+  "LastUpdateBy": "chau",
+  "LastUpdateOn": "01/06 12:09"
+}

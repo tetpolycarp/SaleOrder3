@@ -1,0 +1,59 @@
+{
+  "MainNotes": "",
+  "TotalInvoiceAmount": null,
+  "TotalPaidByCashAmount": null,
+  "TotalPaidByCheckAmount": null,
+  "GrandTotalAmount": null,
+  "TotalAmountFromGiaoList": [
+    {
+      "GiaoNumber": "1",
+      "GiaoSelected": "True",
+      "GiaoSelectedColor": "-13154214",
+      "GiaoDate": "12/31/2021 12:00:00 AM",
+      "Amount": "$ 2,160.00"
+    }
+  ],
+  "Invoices": [
+    {
+      "Number": "101",
+      "GiaoTotalAmount": "$ 60.00",
+      "Notes": "",
+      "GiaoAmount": [
+        {
+          "GiaoNumber": "1",
+          "Amount": "$ 60.00"
+        }
+      ]
+    },
+    {
+      "Number": "102",
+      "GiaoTotalAmount": "$ 100.00",
+      "Notes": "",
+      "GiaoAmount": [
+        {
+          "GiaoNumber": "1",
+          "Amount": "$ 100.00"
+        }
+      ]
+    },
+    {
+      "Number": "103",
+      "GiaoTotalAmount": "$ 2,000.00",
+      "Notes": "",
+      "GiaoAmount": [
+        {
+          "GiaoNumber": "1",
+          "Amount": "$ 2,000.00"
+        }
+      ]
+    },
+    {
+      "Number": "104",
+      "GiaoTotalAmount": "",
+      "Notes": "",
+      "GiaoAmount": []
+    }
+  ],
+  "LastUpdateBy": "chau",
+  "LastUpdateOn": "12/31 08:37"
+}

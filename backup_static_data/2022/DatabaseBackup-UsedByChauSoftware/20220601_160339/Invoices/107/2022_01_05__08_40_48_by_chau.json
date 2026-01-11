@@ -1,0 +1,105 @@
+{
+  "CreatedBy": "chau on desktop",
+  "CustomerName": "Cong Doan Phero",
+  "PhoneNumber": "7147228593",
+  "PickupDate": "",
+  "InvoiceType": "Complex",
+  "InvoiceNumber": "107",
+  "InvoiceDate": "1/5/2022",
+  "Status": "Partial_Pickup, Unpaid",
+  "OrderSaleItems": [
+    {
+      "Index": "1",
+      "PickupDate": "1/5/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Bánh Chưng (Bán Sỉ)",
+      "Quantity": "10",
+      "UnitPrice": "$ 16.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 160.00"
+    },
+    {
+      "Index": "2",
+      "PickupDate": "1/6/2022",
+      "PickedUp": "yes",
+      "OrderNumber": "#2",
+      "SaleItem": "Bánh Tét (Bán Sỉ)",
+      "Quantity": "20",
+      "UnitPrice": "$ 16.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 320.00"
+    },
+    {
+      "Index": "3",
+      "PickupDate": "1/13/2022",
+      "PickedUp": "yes",
+      "OrderNumber": "#3",
+      "SaleItem": "Rượu Lavang",
+      "Quantity": "1",
+      "UnitPrice": "$ 15.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 15.00"
+    },
+    {
+      "Index": "4",
+      "PickupDate": "1/13/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#3",
+      "SaleItem": "Chà bông hộp lớn",
+      "Quantity": "1",
+      "UnitPrice": "$ 20.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 20.00"
+    }
+  ],
+  "InvoiceOrders": [
+    {
+      "OrderNumber": "#1",
+      "PickupDate": "1/5/2022 12:00:00 AM",
+      "TotalString": "$ 160.00",
+      "Total": 0,
+      "AlreadyPaidString": "$ 0.00",
+      "AlreadyPaid": 0,
+      "AlreadyPaidByCheckString": "$ 0.00",
+      "AlreadyPaidByCheck": 0,
+      "CheckNumber": "",
+      "RemainBalanceString": "$ 160.00",
+      "RemainBalance": 0
+    },
+    {
+      "OrderNumber": "#2",
+      "PickupDate": "1/6/2022 12:00:00 AM",
+      "TotalString": "$ 320.00",
+      "Total": 0,
+      "AlreadyPaidString": "$ 0.00",
+      "AlreadyPaid": 0,
+      "AlreadyPaidByCheckString": "$ 0.00",
+      "AlreadyPaidByCheck": 0,
+      "CheckNumber": "",
+      "RemainBalanceString": "$ 320.00",
+      "RemainBalance": 0
+    },
+    {
+      "OrderNumber": "#3",
+      "PickupDate": "1/13/2022 12:00:00 AM",
+      "TotalString": "$ 35.00",
+      "Total": 0,
+      "AlreadyPaidString": "$ 0.00",
+      "AlreadyPaid": 0,
+      "AlreadyPaidByCheckString": "$ 0.00",
+      "AlreadyPaidByCheck": 0,
+      "CheckNumber": "",
+      "RemainBalanceString": "$ 35.00",
+      "RemainBalance": 0
+    }
+  ],
+  "Notes": "",
+  "GrandTotal": "$ 515.00",
+  "AlreadyPaid": "$ 0.00",
+  "AlreadyPaidByCheck": "$ 0.00",
+  "CheckNumber": "",
+  "RemainBalance": "$ 515.00",
+  "LastUpdateBy": "chau",
+  "LastUpdateOn": "01/05 08:40"
+}

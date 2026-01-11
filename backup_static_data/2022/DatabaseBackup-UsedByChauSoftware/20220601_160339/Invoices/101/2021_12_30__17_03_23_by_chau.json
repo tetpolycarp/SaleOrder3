@@ -1,0 +1,65 @@
+{
+  "CreatedBy": "chau on desktop",
+  "CustomerName": "test1",
+  "PhoneNumber": "1111111111",
+  "PickupDate": "1/1/2022 12:00:00 AM",
+  "InvoiceType": "Simple",
+  "InvoiceNumber": "101",
+  "InvoiceDate": "12/30/2021",
+  "Status": "Not_Pickup, Partial_Paid",
+  "OrderSaleItems": [
+    {
+      "Index": "1",
+      "PickupDate": "1/1/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Bánh Chưng",
+      "Quantity": "2",
+      "UnitPrice": "$ 20.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 40.00"
+    },
+    {
+      "Index": "2",
+      "PickupDate": "1/1/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Bánh Tét",
+      "Quantity": "4",
+      "UnitPrice": "$ 20.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 80.00"
+    },
+    {
+      "Index": "3",
+      "PickupDate": "1/1/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Giò Thủ cây lớn (2lbs)",
+      "Quantity": "1",
+      "UnitPrice": "$ 20.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 20.00"
+    },
+    {
+      "Index": "4",
+      "PickupDate": "1/1/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Chà bông hộp lớn",
+      "Quantity": "1",
+      "UnitPrice": "$ 20.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 20.00"
+    }
+  ],
+  "InvoiceOrders": null,
+  "Notes": "",
+  "GrandTotal": "$ 160.00",
+  "AlreadyPaid": "$ 10.00",
+  "AlreadyPaidByCheck": "$ 50.00",
+  "CheckNumber": "10",
+  "RemainBalance": "$ 100.00",
+  "LastUpdateBy": "chau",
+  "LastUpdateOn": "12/30 17:03"
+}

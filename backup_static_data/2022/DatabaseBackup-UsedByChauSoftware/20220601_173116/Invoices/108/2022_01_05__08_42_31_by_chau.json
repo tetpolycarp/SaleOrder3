@@ -1,0 +1,32 @@
+{
+  "CreatedBy": "chau on desktop",
+  "CustomerName": "Anh Huy",
+  "PhoneNumber": "7147228593",
+  "PickupDate": "1/7/2022 12:00:00 AM",
+  "InvoiceType": "Simple",
+  "InvoiceNumber": "108",
+  "InvoiceDate": "1/5/2022",
+  "Status": "Not_Pickup, Unpaid",
+  "OrderSaleItems": [
+    {
+      "Index": "1",
+      "PickupDate": "1/7/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Bánh Chưng",
+      "Quantity": "12",
+      "UnitPrice": "$ 20.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 240.00"
+    }
+  ],
+  "InvoiceOrders": null,
+  "Notes": "",
+  "GrandTotal": "$ 240.00",
+  "AlreadyPaid": "$ 0.00",
+  "AlreadyPaidByCheck": "$ 0.00",
+  "CheckNumber": "",
+  "RemainBalance": "$ 240.00",
+  "LastUpdateBy": "chau",
+  "LastUpdateOn": "01/05 08:42"
+}

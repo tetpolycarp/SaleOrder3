@@ -1,0 +1,162 @@
+[
+  {
+    "name": "",
+    "saleprice": "",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Bánh Chưng",
+    "shortname": "Chưng",
+    "saleprice": "20",
+    "estimatecost": "6",
+    "note": ""
+  },
+  {
+    "name": "Bánh Chưng (Bán Sỉ)",
+    "shortname": "Chưng (Sỉ)",
+    "saleprice": "16",
+    "estimatecost": "6",
+    "note": ""
+  },
+  {
+    "name": "Bánh Tét",
+    "shortname": "Tét",
+    "saleprice": "20",
+    "estimatecost": "6",
+    "note": ""
+  },
+  {
+    "name": "Bánh Tét (Bán Sỉ)",
+    "shortname": "Tét (Sỉ)",
+    "saleprice": "16",
+    "estimatecost": "6",
+    "note": ""
+  },
+  {
+    "name": "Rượu Lễ Chai",
+    "shortname": "Rượu Chai",
+    "saleprice": "10",
+    "estimatecost": "4",
+    "note": ""
+  },
+  {
+    "name": "Rượu Lễ Thùng (12 chai)",
+    "shortname": "Rượu Thùng",
+    "saleprice": "100",
+    "estimatecost": "4",
+    "note": ""
+  },
+  {
+    "name": "Rượu Lavang",
+    "shortname": "Rượu Lavang",
+    "saleprice": "15",
+    "estimatecost": "4",
+    "note": ""
+  },
+  {
+    "name": "Rượu Lavang (Giá chai thứ 2+)",
+    "shortname": "Rượu Lavang",
+    "saleprice": "10",
+    "estimatecost": "4",
+    "note": ""
+  },
+  {
+    "name": "Dưa Món chai nhỏ",
+    "shortname": "Dưa Món nhỏ",
+    "saleprice": "6",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Dưa Món chai nhỏ thùng (12 chai)",
+    "shortname": "Dưa nhỏ thùng",
+    "saleprice": "54",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Dưa Món chai lớn",
+    "shortname": "Dưa Món lớn",
+    "saleprice": "12",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Dưa Món chai lớn thùng (12 chai)",
+    "shortname": "Dưa lớn thùng",
+    "saleprice": "102",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Chà bông hộp nhỏ",
+    "shortname": "Chà Bông Nhỏ",
+    "saleprice": "10",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Chà bông hộp lớn",
+    "shortname": "Chà Bông Lớn",
+    "saleprice": "20",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Giò Thủ cây lớn (2lbs)",
+    "shortname": "Thủ lớn",
+    "saleprice": "20",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Giò Luạ lớn (2lbs)",
+    "shortname": "Lụa lớn",
+    "saleprice": "12",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Cơm Cháy-Chà Bông",
+    "shortname": "Cơm Cháy",
+    "saleprice": "10",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Bánh Quế",
+    "shortname": "Quế",
+    "saleprice": "10",
+    "estimatecost": "6",
+    "note": ""
+  },
+  {
+    "name": "Kẹo Đậu Phộng nhỏ",
+    "shortname": "Phộng nhỏ",
+    "saleprice": "6",
+    "estimatecost": "4",
+    "note": ""
+  },
+  {
+    "name": "Nem Chua",
+    "shortname": "Nem",
+    "saleprice": "12",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Khô Gà Lá Chanh",
+    "shortname": "Khô Gà",
+    "saleprice": "10",
+    "estimatecost": "",
+    "note": ""
+  },
+  {
+    "name": "Donation",
+    "shortname": "Donation",
+    "saleprice": "1",
+    "estimatecost": "",
+    "note": ""
+  }
+]

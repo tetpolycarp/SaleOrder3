@@ -1,0 +1,65 @@
+{
+  "CreatedBy": "chau on desktop",
+  "CustomerName": "cô Hương",
+  "PhoneNumber": "3333333333",
+  "PickupDate": "1/6/2022 12:00:00 AM",
+  "InvoiceType": "Simple",
+  "InvoiceNumber": "104",
+  "InvoiceDate": "12/31/2021",
+  "Status": "Not_Pickup, Paid",
+  "OrderSaleItems": [
+    {
+      "Index": "1",
+      "PickupDate": "1/6/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Bánh Chưng",
+      "Quantity": "3",
+      "UnitPrice": "$ 20.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 60.00"
+    },
+    {
+      "Index": "2",
+      "PickupDate": "1/6/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Bánh Tét",
+      "Quantity": "4",
+      "UnitPrice": "$ 20.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 80.00"
+    },
+    {
+      "Index": "3",
+      "PickupDate": "1/6/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Rượu Lavang",
+      "Quantity": "2",
+      "UnitPrice": "$ 15.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 30.00"
+    },
+    {
+      "Index": "4",
+      "PickupDate": "1/6/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#1",
+      "SaleItem": "Dưa Món chai nhỏ",
+      "Quantity": "2",
+      "UnitPrice": "$ 6.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 12.00"
+    }
+  ],
+  "InvoiceOrders": null,
+  "Notes": "",
+  "GrandTotal": "$ 182.00",
+  "AlreadyPaid": "$ 182.00",
+  "AlreadyPaidByCheck": "$ 0.00",
+  "CheckNumber": "",
+  "RemainBalance": "$ 0.00",
+  "LastUpdateBy": "chau",
+  "LastUpdateOn": "12/31 08:18"
+}

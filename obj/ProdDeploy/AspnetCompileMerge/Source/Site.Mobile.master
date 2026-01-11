@@ -1,0 +1,188 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="Site_Mobile" Codebehind="Site.Mobile.master.cs" %>
+<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <style type="text/css">
+        .auto-style1 {
+            font-size: small;
+        }
+        .auto-style2 {
+            height: 23px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+            <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+    <div>   
+            <table style="width: 100%; background-color: white;">
+      
+        <section class="content-wrapper main-content clear-fix">
+          
+              
+             <table style="width:100%;">
+                 <tr>
+                    <td style="vertical-align: top; width:90%;">             
+                         <telerik:RadMenu ID="RadMenu1" runat="server" EnableRoundedCorners="true" EnableShadows="true" Skin="Black" CssClass="auto-style7" Width="100%" ShowToggleHandle="true" >
+                            <Items>
+                                    <telerik:RadMenuItem Text="Create Invoice" NavigateUrl="InvoiceMobile">  </telerik:RadMenuItem>    
+                                <telerik:RadMenuItem runat="server" IsSeparator="True" Text="|" />
+                                   
+                                 <telerik:RadMenuItem Text="Pickup Forecast">
+                                              <Items>
+                                                   <telerik:RadMenuItem Text="Today Only" NavigateUrl="PickupForecast?Date=Today Only">
+                                                       </telerik:RadMenuItem>
+                                                   <telerik:RadMenuItem Text="Tomorrow Only" NavigateUrl="PickupForecast?Date=Tomorrow Only">
+                                                       </telerik:RadMenuItem>
+                                                   <telerik:RadMenuItem Text="Today and Tomorrow" NavigateUrl="PickupForecast?Date=Today and Tomorrow">
+                                                       </telerik:RadMenuItem>
+                                                   <telerik:RadMenuItem IsSeparator="True" />
+                                                   <telerik:RadMenuItem Text="Next 2 days" NavigateUrl="PickupForecast?NumberOfDays=2">
+                                                       </telerik:RadMenuItem>
+                                                   <telerik:RadMenuItem Text="Next 3 days" NavigateUrl="PickupForecast?NumberOfDays=3">
+                                                       </telerik:RadMenuItem>
+                                                    <telerik:RadMenuItem Text="Next 4 days" NavigateUrl="PickupForecast?NumberOfDays=4">
+                                                       </telerik:RadMenuItem>
+                                                   <telerik:RadMenuItem Text="Next 5 days" NavigateUrl="PickupForecast?NumberOfDays=5">
+                                                       </telerik:RadMenuItem>
+                                                    <telerik:RadMenuItem Text="Next 6 days" NavigateUrl="PickupForecast?NumberOfDays=6">
+                                                       </telerik:RadMenuItem>
+                                                   <telerik:RadMenuItem Text="Next 7 days" NavigateUrl="PickupForecast?NumberOfDays=7">
+                                                       </telerik:RadMenuItem>
+                                                  <telerik:RadMenuItem IsSeparator="True" />
+                                                    <telerik:RadMenuItem Text="Not Pickup" NavigateUrl="PickupForecast">
+                                                   </telerik:RadMenuItem>
+                                                   <telerik:RadMenuItem IsSeparator="True" />
+                                                    <telerik:RadMenuItem Text="Already Picked-up" NavigateUrl="PickupForecast?Pickup=ALL">
+                                                   </telerik:RadMenuItem>
+                                             </Items>
+                                        </telerik:RadMenuItem>
+                                 <telerik:RadMenuItem runat="server" IsSeparator="True" Text="|" />
+                                  <telerik:RadMenuItem Text="Inventory" NavigateUrl="Inventory?Client=mobile">
+                                        </telerik:RadMenuItem>
+                                  <telerik:RadMenuItem runat="server" IsSeparator="True" Text="|" />   
+                                <telerik:RadMenuItem Text="Reports">
+                                    <Items>
+                       
+                                         <telerik:RadMenuItem Text="Sales Summary" NavigateUrl="SaleSummary?Mobile=true">
+                                        </telerik:RadMenuItem>
+                                        <telerik:RadMenuItem IsSeparator="True" />
+                                        <telerik:RadMenuItem Text="Order Details" NavigateUrl="OrderDetails">
+                                        </telerik:RadMenuItem>
+                                          <telerik:RadMenuItem IsSeparator="True" />                                       
+                                       
+                                    </Items>
+                                </telerik:RadMenuItem>
+                                  <telerik:RadMenuItem runat="server" IsSeparator="True" Text="|" />
+                <telerik:RadMenuItem Text="Admin (Restricted)">
+                    <GroupSettings ExpandDirection="Down"></GroupSettings>
+                    <Items>
+                        <telerik:RadMenuItem Text="Inventory Admin" BackColor="Red">
+                              <Items>   
+                                    <telerik:RadMenuItem IsSeparator="True" />
+                                    <telerik:RadMenuItem Text="Not Pick-up" NavigateUrl="PickupForecast" BackColor="Red">
+                                   </telerik:RadMenuItem>
+                                   <telerik:RadMenuItem IsSeparator="True" />
+                                    <telerik:RadMenuItem Text="Already Picked-up" NavigateUrl="PickupForecast?Pickup=ALL" BackColor="Green">
+                                   </telerik:RadMenuItem>
+                            </Items>
+                        </telerik:RadMenuItem>        
+                    </Items>
+                </telerik:RadMenuItem>
+                            </Items>
+                        </telerik:RadMenu>
+                         
+                        <br />
+                         <table style="width:100%;">
+                            <tr>
+                                <td>
+                                      <h5>
+                                             Device detected <asp:Label ID="LabelBrowser" runat="server" Text=""></asp:Label>.
+                                             <br /> Switch to MOBILE Application. 
+                                             <asp:LoginView runat="server" ViewStateMode="Disabled">
+                                                        <AnonymousTemplate>
+                                                            <ul class="nav navbar-nav navbar-right">
+                              
+                                                            </ul>
+                                                        </AnonymousTemplate>
+                                                        <LoggedInTemplate>
+                                                            <ul class="nav navbar-nav navbar-right">
+                                                                <li>Hello, <%: Context.User.Identity.GetUserName() %>! - <a runat="server" href="~/Default"> Home </a> - <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                                                </li>                            
+                                                            </ul>
+                                                        </LoggedInTemplate>
+                                                    </asp:LoginView>
+                                        </h5>
+                                </td>
+                                 <td valign="top" align="right">  <asp:Image ID="Image3" runat="server" ImageUrl="~/images/snake_2025.jpg" Height="75px" Width="110px" /></td>
+                                </tr>
+                          </table>
+                         
+                   </td>
+              
+              </tr>
+                 <tr>
+                     <td  style="vertical-align: top; width:90%;">
+                           <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+                     </td>
+                 </tr>
+                <tr>
+                 
+                    <td style="vertical-align: top; width:90%;">
+                        <asp:ContentPlaceHolder ID="ConsoleContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                     </td>
+                  
+                    </tr>
+            </table>
+        </section>
+          <table style="width:100%;">
+          
+                 <tr>
+                    <td style="vertical-align: top" class="auto-style3">
+                        &nbsp;</td>
+                    <td class="auto-style6" >
+                         <div class="container body-content">
+                            <hr />
+                            <footer>
+                                <p style="text-align:right; vertical-align:bottom">&copy; <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>- <span class="auto-style1">Developed by Gary (Chau) Nguyen. All right reserved.</span> &nbsp;&nbsp;&nbsp; </p>
+                            </footer>
+                        </div>
+                    </td>
+                    <td class="auto-style2">
+                     
+                    </td>
+                </tr>
+               
+            </table>
+     
+    </div>
+          
+
+    </form>
+</body>
+</html>

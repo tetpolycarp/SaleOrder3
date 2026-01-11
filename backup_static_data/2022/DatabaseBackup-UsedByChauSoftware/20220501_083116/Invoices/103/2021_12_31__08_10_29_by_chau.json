@@ -1,0 +1,127 @@
+{
+  "CreatedBy": "chau on desktop",
+  "CustomerName": "Lavang",
+  "PhoneNumber": "2222222222",
+  "PickupDate": "",
+  "InvoiceType": "Complex",
+  "InvoiceNumber": "103",
+  "InvoiceDate": "12/31/2021",
+  "Status": "Partial_Pickup, Partial_Paid",
+  "OrderSaleItems": [
+    {
+      "Index": "1",
+      "PickupDate": "12/31/2021",
+      "PickedUp": "yes",
+      "OrderNumber": "#1",
+      "SaleItem": "Bánh Chưng (Bán Sỉ)",
+      "Quantity": "100",
+      "UnitPrice": "$ 16.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 1,600.00"
+    },
+    {
+      "Index": "2",
+      "PickupDate": "12/31/2021",
+      "PickedUp": "yes",
+      "OrderNumber": "#1",
+      "SaleItem": "Bánh Tét (Bán Sỉ)",
+      "Quantity": "50",
+      "UnitPrice": "$ 16.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 800.00"
+    },
+    {
+      "Index": "3",
+      "PickupDate": "1/5/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#2",
+      "SaleItem": "Bánh Chưng (Bán Sỉ)",
+      "Quantity": "200",
+      "UnitPrice": "$ 16.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 3,200.00"
+    },
+    {
+      "Index": "4",
+      "PickupDate": "1/5/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#2",
+      "SaleItem": "Bánh Tét (Bán Sỉ)",
+      "Quantity": "100",
+      "UnitPrice": "$ 16.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 1,600.00"
+    },
+    {
+      "Index": "5",
+      "PickupDate": "1/7/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#3",
+      "SaleItem": "Bánh Chưng (Bán Sỉ)",
+      "Quantity": "150",
+      "UnitPrice": "$ 16.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 2,400.00"
+    },
+    {
+      "Index": "6",
+      "PickupDate": "1/7/2022",
+      "PickedUp": "no",
+      "OrderNumber": "#3",
+      "SaleItem": "Bánh Tét (Bán Sỉ)",
+      "Quantity": "150",
+      "UnitPrice": "$ 16.00",
+      "Discount": "$ 0.00",
+      "SubTotal": "$ 2,400.00"
+    }
+  ],
+  "InvoiceOrders": [
+    {
+      "OrderNumber": "#1",
+      "PickupDate": "12/31/2021 12:00:00 AM",
+      "TotalString": "$ 2,400.00",
+      "Total": 0,
+      "AlreadyPaidString": "$ 2,400.00",
+      "AlreadyPaid": 0,
+      "AlreadyPaidByCheckString": "$ 0.00",
+      "AlreadyPaidByCheck": 0,
+      "CheckNumber": "",
+      "RemainBalanceString": "$ 0.00",
+      "RemainBalance": 0
+    },
+    {
+      "OrderNumber": "#2",
+      "PickupDate": "1/5/2022 12:00:00 AM",
+      "TotalString": "$ 4,800.00",
+      "Total": 0,
+      "AlreadyPaidString": "$ 0.00",
+      "AlreadyPaid": 0,
+      "AlreadyPaidByCheckString": "$ 0.00",
+      "AlreadyPaidByCheck": 0,
+      "CheckNumber": "",
+      "RemainBalanceString": "$ 4,800.00",
+      "RemainBalance": 0
+    },
+    {
+      "OrderNumber": "#3",
+      "PickupDate": "1/7/2022 12:00:00 AM",
+      "TotalString": "$ 4,800.00",
+      "Total": 0,
+      "AlreadyPaidString": "$ 0.00",
+      "AlreadyPaid": 0,
+      "AlreadyPaidByCheckString": "$ 0.00",
+      "AlreadyPaidByCheck": 0,
+      "CheckNumber": "",
+      "RemainBalanceString": "$ 4,800.00",
+      "RemainBalance": 0
+    }
+  ],
+  "Notes": "",
+  "GrandTotal": "$ 12,000.00",
+  "AlreadyPaid": "$ 2,400.00",
+  "AlreadyPaidByCheck": "$ 0.00",
+  "CheckNumber": "",
+  "RemainBalance": "$ 9,600.00",
+  "LastUpdateBy": "chau",
+  "LastUpdateOn": "12/31 08:10"
+}
