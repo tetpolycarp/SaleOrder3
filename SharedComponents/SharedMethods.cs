@@ -582,8 +582,8 @@ namespace SaintPolycarp.BanhChung.SharedMethods
         public static void SendNewSmsTextMessage(string phoneNumber, string messageBody)
         {
             // Twilio Account SID and Auth Token
-            const string accountSid = "AC5823007eae0f7343edc367466a691eda";
-            const string authToken = "46fff09566b48b79051e46fe32661d1b";
+            const string accountSid = "removeThis";
+            const string authToken = "removeThis";
 
             // Initialize Twilio client
             TwilioClient.Init(accountSid, authToken);
