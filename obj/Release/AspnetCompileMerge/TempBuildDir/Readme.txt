@@ -23,8 +23,8 @@ Watch out if the local admin user is expired (which it should not be, because th
 Therefore, confirm if the local admin pwd never expired.
 Test the site before modify anything: http://<new ip>
 0. Make the copy of "C:\inetpub\wwwroot" then compile the project solution to make sure build "C:\Users\Administrator\source\repos\SaleOrder2".
-1. In VS, search for any text in the previous year "2025", change to "2026" and the content in the codes base on that make change like "Xuân XXXX", change all the logo and text to new year by compiling the visual studio project again. 
-   look for logo file name "snake_2025.jpg" (tricky, maybe the previous replacement for "2024" to "2025" might change the name to "snake_2026.jpg") 
+1. In VS, search for any text in the previous year "2026", change to "2027" and the content in the codes base on that make change like "Xuân XXXX", change all the logo and text to new year by compiling the visual studio project again. 
+   look for logo file name "horse_2026.png" (tricky, maybe the previous replacement for "2026" to "2027" might change the name to "snake_2026.jpg") 
    In VS, right click "SaleOrderProject" project then select "Publish". Using "Staging" profile, then try to publish and test to "wwwroot_staging" first.
 2. Update web.config to point to the new database folder: <add key="RootDataDirectory" value="C:\GianHangTet2026" />
    In this new database folder, there is "SaleItems.json". So update the items and price correctly for each year.
@@ -38,13 +38,13 @@ Test the site before modify anything: http://<new ip>
 4. Update Phone contact in InvoiceMobileReceipt.aspx and InvoicePrint.aspx
 
 From Google drive: Idea is that we want to update G3:G4, H3:H4 cell in the sheet
-Note for 2025. use the tutorial video below try to fix these methods: UpdateTotalPickupToInventoryInGoogleSheet() >> Methods.UpdateRangeValueInSheet() >> GetCredentialService()
+Note for 2026. use the tutorial video below try to fix these methods: UpdateTotalPickupToInventoryInGoogleSheet() >> Methods.UpdateRangeValueInSheet() >> GetCredentialService()
 Which read the .json file somehow.
 As from the test in 2024, it work when running the code "locathost", but fail when running through IIS. Use the video below to try again.
 
 Purpose: Manually copy the googlesheet from the previous year to the current year to track for inventory. This sheet is used in SalesOrder software, "Inventory" on the menu.
 1. On drive.google.com, from "tetpolycarp" account, go to the new year "2026", create folder name "InventorySheet-UsedByChauSoftware" (the previous task scheduler execution above should already create "2026")
-2. Now, go back to the previous year folder, "2025\InventorySheet-UsedByChauSoftware", then make the copy of this sheet "BanhChung_Inventory_2026". Then move it to "2025\InventorySheet-UsedByChauSoftware". Make sure to rename it correctly
+2. Now, go back to the previous year folder, "2026\InventorySheet-UsedByChauSoftware", then make the copy of this sheet "BanhChung_Inventory_2026". Then move it to "2026\InventorySheet-UsedByChauSoftware". Make sure to rename it correctly
    In "BanhChungInventory", update all the date and clear the data. Make sure the calculated fields in the first yellow table looks good.
    In "OtherInventory", update/edit "Mat Hang". It is a list in the rule. If update the item, need to update the calculate field in the first yellow table as well.
    Also, there is the date validation rule for Column F, might need adjust the date too.

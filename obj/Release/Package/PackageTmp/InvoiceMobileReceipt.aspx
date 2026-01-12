@@ -100,7 +100,7 @@
                                    <table style="width: 100%;">
                                                      <tr>
                                                 <td valign="top" align="center" >  
-                                                    <br /><strong>Xuân Ất Tỵ 2025</strong> 
+                                                    <br /><strong>Xuân Bính Ngọ 2026</strong> 
                                                     <br />Contacts:
                                                     <br />A. Thắng (714) 553-6065
                                                     <br />C. Ái Đơn (714) 260-4798

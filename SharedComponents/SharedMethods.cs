@@ -234,15 +234,15 @@ namespace SaintPolycarp.BanhChung.SharedMethods
 
         public static void UpdateTotalPickupToInventoryInGoogleSheet()
         {
-            //https://docs.google.com/spreadsheets/d/1i0WCKcebnyzmJn6C5hYO0n8ctIUsMypS3UoUCVw84vQ/edit?usp=sharing
-            string spreadsheetId = "1i0WCKcebnyzmJn6C5hYO0n8ctIUsMypS3UoUCVw84vQ";
-            string spreadsheetName = "ChauTest";
+            //https://docs.google.com/spreadsheets/d/1VZ-LW4BI94mY6B9Mn2DFv1eVf7t_oMRI3GrNo56gZh8/edit?usp=sharing
+            string spreadsheetId = "1VZ-LW4BI94mY6B9Mn2DFv1eVf7t_oMRI3GrNo56gZh8";
+            string spreadsheetName = "BanhChungInventory";
             string pickedupRange = "G3:G4"; //only update the data into this cell
             string notPickedupRange = "H3:H4"; //only update the data into this cell
 
 
             //expired date to make sure future changes won't update the archive google sheet
-            DateTime expiredDate = new DateTime(2026, 3, 1, 0, 0, 0);
+            DateTime expiredDate = new DateTime(2027, 3, 1, 0, 0, 0);
 
             //only need to execute while still before the expired Date
             if (DateTime.Compare(DateTime.Now, expiredDate) < 0)

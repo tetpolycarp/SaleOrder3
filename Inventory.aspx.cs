@@ -71,7 +71,7 @@ namespace SaintPolycarp.BanhChung
 
         protected void ButtonEdit_Click(object sender, EventArgs e)
         {
-            HttpContext.Current.Response.Redirect(@"https://docs.google.com/spreadsheets/d/1i0WCKcebnyzmJn6C5hYO0n8ctIUsMypS3UoUCVw84vQ/edit?usp=sharing");
+            HttpContext.Current.Response.Redirect(@"https://docs.google.com/spreadsheets/d/1VZ-LW4BI94mY6B9Mn2DFv1eVf7t_oMRI3GrNo56gZh8/edit?usp=sharing");
 
         }
     }
