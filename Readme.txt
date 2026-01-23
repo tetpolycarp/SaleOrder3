@@ -1,6 +1,8 @@
 ﻿﻿Check all the credential in OneNote "BTV Church"
 Credential to log into front end console: username: admin/chau, pass: tong nha
 
+Not for 2027: Try this tutorial build invoice, inventory and report through google form and appscript:
+https://www.youtube.com/watch?v=0Wedrou6ENw&t=59s
 
 Steps to do for the new year: Read note above. 
 Note: new good feature, whenever user create invoice on desktop or mobile, it will sends the SMS text message as the receipt and create the new user.
