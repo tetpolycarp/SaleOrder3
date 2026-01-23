@@ -261,7 +261,6 @@ C:\sources\SaleOrder3\bin\zh-Hans\Microsoft.TeamFoundation.Common.resources.dll
 C:\sources\SaleOrder3\bin\zh-Hant\Microsoft.TeamFoundation.Common.resources.dll
 C:\sources\SaleOrder3\obj\Release\SaleOrderProject.csproj.App.config
 C:\sources\SaleOrder3\obj\Release\SaleOrderProject.csproj.AssemblyReference.cache
-C:\sources\SaleOrder3\obj\Release\SaintPolycarp.BanhChung.dll.licenses
 C:\sources\SaleOrder3\obj\Release\SaleOrderProject.csproj.CoreCompileInputs.cache
 C:\sources\SaleOrder3\obj\Release\SaleOrderProject.csproj.CopyComplete
 C:\sources\SaleOrder3\obj\Release\SaintPolycarp.BanhChung.dll

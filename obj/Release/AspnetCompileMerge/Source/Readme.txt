@@ -22,9 +22,9 @@ Backup admin user: chau - secure
 Watch out if the local admin user is expired (which it should not be, because the user set to be none expired). Then we have to re-enter IIS App pool and task scheduler for the new pwd, otherwise, they won't work
 Therefore, confirm if the local admin pwd never expired.
 Test the site before modify anything: http://<new ip>
-0. Make the copy of "C:\inetpub\wwwroot" then compile the project solution to make sure build "C:\Users\Administrator\source\repos\SaleOrder2".
+0. Make the copy of "C:\inetpub\wwwroot" then compile the project solution to make sure build "C:\sources\SaleOrder3".
 1. In VS, search for any text in the previous year "2026", change to "2027" and the content in the codes base on that make change like "Xuân XXXX", change all the logo and text to new year by compiling the visual studio project again. 
-   look for logo file name "horse_2026.png" (tricky, maybe the previous replacement for "2026" to "2027" might change the name to "snake_2026.jpg") 
+   look for logo file name "horse_2026.png" (tricky, maybe the previous replacement for "2026" to "2027" might change the name to "horse_2026.jpg") 
    In VS, right click "SaleOrderProject" project then select "Publish". Using "Staging" profile, then try to publish and test to "wwwroot_staging" first.
 2. Update web.config to point to the new database folder: <add key="RootDataDirectory" value="C:\GianHangTet2026" />
    In this new database folder, there is "SaleItems.json". So update the items and price correctly for each year.
@@ -48,7 +48,7 @@ Purpose: Manually copy the googlesheet from the previous year to the current yea
    In "BanhChungInventory", update all the date and clear the data. Make sure the calculated fields in the first yellow table looks good.
    In "OtherInventory", update/edit "Mat Hang". It is a list in the rule. If update the item, need to update the calculate field in the first yellow table as well.
    Also, there is the date validation rule for Column F, might need adjust the date too.
-3. After copying, open the sheet "BanhChung_Inventory_2026" > File > Share > Set share "everyone with the link", make sure the share link is "Editable"
+3. After copying, open the sheet "BanhChung_Inventory_2026" > File > Share > Share with Other > Set share "everyone with the link", make sure the share link is "Editable"
    Also, reminder whoever update Inventory, if they use on mobile, need to have google sheet app.
 4. Copy the shared link to notepad
 5. Go back to Visual Studio, Open "SharedComponents\SharedMethods.cs", look for method name "UpdateTotalPickupToInventoryInGoogleSheet()". 
@@ -58,6 +58,7 @@ Purpose: Manually copy the googlesheet from the previous year to the current yea
 9  On the same file (line 68) perform as followed. When update for Mobile, get the different link. Go to the sheet on google, then select "File > Share > Public to Web" > "Link" tab for "Entire Document" and "Web page", then select Publish
    to get the link in there to get the entire "iframe" codes
 10. Open "Inventory.aspx.cs", then update the full string in step #4 in (line 74) for the "Redirect" function
+
 Step to publish google sheet using iFrame: http://googledrive.in30minutes.com/google-sheets-embed-live-spreadsheet/
 Step to Google Sheet API:
 1. Setup API key: https://console.developers.google.com/apis/dashboard
