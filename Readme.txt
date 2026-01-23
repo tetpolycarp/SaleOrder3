@@ -11,7 +11,7 @@ Whenever, register new user, it will send SMS text message to the phone number.
 From AWS Console (west region, Oregon)
 0. Create the AMI which is the last good EC2 instance. Only keep it for 1 month during Banh Chung
 1. Start EC2 instance "btv-saleorders-server"
-2. From "CloudWatch\Events\Rules", make sure to enable these 2 rules: 
+2. From "EventBridge\Scheduler\Scheduled rules(legary)" in Oregon, make sure to enable these 2 rules: 
      "StartBtvEc2Instance" which start VM at 15:00 UTC daily (which is 7am local time)
      "StopBtvEc2" which stop VM at 7:00 UTC daily (which is 11pm local time)
 3. From "EC2\Elastic IP addresses", create the new ElasticIPs.
@@ -118,7 +118,7 @@ It should send SMS message to all the users, make sure to test the software and 
 Items need to be done after Banh Chung done 2024:
 0. Leave it for a few more days
 1. Shutdown EC2 instance. 
-2. Turn off cloudwatch to start/stop EC2 instance: "CloudWatch\Rules\StartBtvEc2Instance" and "StopBtvEc2"
+2. Turn off cloudwatch to start/stop EC2 instance: "EventBridge\Scheduler\Scheduled rules(legary)" in Oregon
    Release ElasticIPs from EC2 instance then delete it.
 3. Cancel/release the active phone number from the console
 4. Submit the support ticket from the console to ask them to suspend/cancel the account
