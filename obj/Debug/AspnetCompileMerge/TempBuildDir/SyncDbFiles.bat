@@ -1,6 +1,6 @@
 @echo off 
-set target=G:\My Drive\2025\DatabaseBackup-UsedByChauSoftware
-set source=C:\GianHangTet2025
+set target=G:\My Drive\2026\DatabaseBackup-UsedByChauSoftware
+set source=C:\GianHangTet2026
 
 
 SETLOCAL ENABLEDELAYEDEXPANSION

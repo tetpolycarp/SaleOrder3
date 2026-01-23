@@ -49,7 +49,7 @@
                <tr>
                     <td align="center" style="width: 100%; vertical-align: central; align-content:center">
                          <asp:PlaceHolder runat="server" ID="DesktopView" Visible="false">
-                            <iframe frameborder="1" src="https://docs.google.com/spreadsheets/d/1i0WCKcebnyzmJn6C5hYO0n8ctIUsMypS3UoUCVw84vQ/edit?usp=sharing" width="100%" height="1000px"></iframe>
+                            <iframe frameborder="1" src="https://docs.google.com/spreadsheets/d/1VZ-LW4BI94mY6B9Mn2DFv1eVf7t_oMRI3GrNo56gZh8/edit?usp=sharing" width="100%" height="1000px"></iframe>
                  <br />
                           </asp:PlaceHolder>
                         </td>
@@ -65,7 +65,7 @@
                  <tr>
                     <td align="center" style="width: 100%; vertical-align: central; align-content:center">
                          <asp:PlaceHolder runat="server" ID="MobileView" Visible="false">
-                            <iframe frameborder="1" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQhUYEMWJQGw0ZIF1C3j2_R71__Oxso4MCkZ89CvJmjgHjhS7PIYVdbxlvNrWTMRcS2I-fvObl0Xd_/pubhtml" width="100%" height="1000px"></iframe>
+                            <iframe frameborder="1" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS6OsE0-ZUSHI_8nqIYZv-eSfhM2vr1aYfxW3J0ANtdDmblaZjfMVBayGg60DfhfjAecEjeXii_biSH/pubhtml" width="100%" height="1000px"></iframe>
                        <br />   
                           </asp:PlaceHolder>
                     </td>

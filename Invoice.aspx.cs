@@ -1907,10 +1907,10 @@ namespace SaintPolycarp.BanhChung
                 if (string.IsNullOrEmpty(TextBoxInvoiceNumber.Text))
                 {
                     //query the database to get the next index
-                    //if the collection is empty, then the index start from 101
+                    //if the collection is empty, then the index start from 001
                     if (orderInvoices.Count == 0)
                     {
-                        TextBoxInvoiceNumber.Text = "101";
+                        TextBoxInvoiceNumber.Text = "1";
                     }
                     else
                     {

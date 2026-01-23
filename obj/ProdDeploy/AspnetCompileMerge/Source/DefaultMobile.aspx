@@ -43,7 +43,7 @@
                <tr>
                     <td align="center" style="width: 100%; vertical-align: central; align-content:center">
                             <h3 class="auto-style8">
-                                <span class="auto-style9"><strong>Xuân Ất Tỵ 2025</strong></span><br /> 
+                                <span class="auto-style9"><strong>Xuân Bính Ngọ 2026</strong></span><br /> 
                                 Dự án Bánh Chưng <br />
                                 BTV @ Cộng Đoàn St. Polycarp</h3>
                                              

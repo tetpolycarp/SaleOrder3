@@ -1262,10 +1262,10 @@ namespace SaintPolycarp.BanhChung
                 if (string.IsNullOrEmpty(LabelInvoiceNumber.Text))
                 {
                     //query the database to get the next index
-                    //if the collection is empty, then the index start from 101
+                    //if the collection is empty, then the index start from 001
                     if (orderInvoices.Count == 0)
                     {
-                        LabelInvoiceNumber.Text = "101";
+                        LabelInvoiceNumber.Text = "1";
                     }
                     else
                     {
