@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using Mitchell.ScmConsoles.AdminPages;
+using MongoDB.Driver;
 using MongoDB.Driver.Linq;
 using Newtonsoft.Json;
 using SaintPolycarp.BanhChung.Google.SharedComponents;
@@ -211,27 +212,30 @@ namespace SaintPolycarp.BanhChung.SharedMethods
         }
         public static List<OrderInvoice> GetInvoices()
         {
-            List<OrderInvoice> invoices = new List<OrderInvoice>();
+            var invoices = new List<OrderInvoice>();
             var directory = new DirectoryInfo(SharedConstansts.SharedConstants.INVOICE_DIRECTORY);
 
-            //parse through each of the folder to get the invoices
             foreach (var dir in directory.GetDirectories("*", SearchOption.TopDirectoryOnly))
             {
                 try
                 {
-                    //assuming the name of the folder is the invoice number
-                    //then get the invoice
-                    invoices.Add(GetInvoice(dir.Name));
+                    var inv = GetInvoice(dir.Name);
+                    if (inv != null) invoices.Add(inv);
                 }
-                catch (Exception ex)
-                {
-
-                }
+                catch { /* log error */ }
             }
 
-            return invoices;
-        }
+            // Use a Regex that is more forgiving and return the sorted list directly
+            return invoices
+                .OrderBy(i => {
+                    if (string.IsNullOrEmpty(i.InvoiceNumber)) return int.MaxValue;
 
+                    // This looks for the first set of digits in the string
+                    var match = Regex.Match(i.InvoiceNumber, @"\d+");
+                    return match.Success ? int.Parse(match.Value) : int.MaxValue;
+                })
+                .ToList();
+        }
         public static void UpdateTotalPickupToInventoryInGoogleSheet()
         {
             //https://docs.google.com/spreadsheets/d/1VZ-LW4BI94mY6B9Mn2DFv1eVf7t_oMRI3GrNo56gZh8/edit?usp=sharing

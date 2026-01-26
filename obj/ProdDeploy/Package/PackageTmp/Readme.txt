@@ -1,6 +1,8 @@
 ﻿﻿Check all the credential in OneNote "BTV Church"
 Credential to log into front end console: username: admin/chau, pass: tong nha
 
+Not for 2027: Try this tutorial build invoice, inventory and report through google form and appscript:
+https://www.youtube.com/watch?v=0Wedrou6ENw&t=59s
 
 Steps to do for the new year: Read note above. 
 Note: new good feature, whenever user create invoice on desktop or mobile, it will sends the SMS text message as the receipt and create the new user.
@@ -9,7 +11,7 @@ Whenever, register new user, it will send SMS text message to the phone number.
 From AWS Console (west region, Oregon)
 0. Create the AMI which is the last good EC2 instance. Only keep it for 1 month during Banh Chung
 1. Start EC2 instance "btv-saleorders-server"
-2. From "CloudWatch\Events\Rules", make sure to enable these 2 rules: 
+2. From "EventBridge\Scheduler\Scheduled rules(legary)" in Oregon, make sure to enable these 2 rules: 
      "StartBtvEc2Instance" which start VM at 15:00 UTC daily (which is 7am local time)
      "StopBtvEc2" which stop VM at 7:00 UTC daily (which is 11pm local time)
 3. From "EC2\Elastic IP addresses", create the new ElasticIPs.
@@ -116,12 +118,13 @@ It should send SMS message to all the users, make sure to test the software and 
 Items need to be done after Banh Chung done 2024:
 0. Leave it for a few more days
 1. Shutdown EC2 instance. 
-2. Turn off cloudwatch to start/stop EC2 instance: "CloudWatch\Rules\StartBtvEc2Instance" and "StopBtvEc2"
+2. Turn off cloudwatch to start/stop EC2 instance: "EventBridge\Scheduler\Scheduled rules(legary)" in Oregon
    Release ElasticIPs from EC2 instance then delete it.
 3. Cancel/release the active phone number from the console
 4. Submit the support ticket from the console to ask them to suspend/cancel the account
 5. Export all invoice/tracking sheet into excel then upload to google drive for archiving. Look back in previous year for reference. ("tetpolycarp" account, look into onenote for pwd) 
 6. Delete the old AMI (deregister AMI, then go to snapshot and delete it)
+7. Cancel ring account for camera
 
 Backlogs:
 list after 2025:

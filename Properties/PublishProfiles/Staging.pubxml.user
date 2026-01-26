@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\inetpub\staging</_PublishTargetUrl>
-    <History>True|2026-01-23T02:35:40.4407373Z;False|2026-01-22T18:34:57.3842335-08:00;True|2026-01-22T18:30:38.6710142-08:00;True|2025-01-16T17:40:27.3170566-08:00;False|2025-01-16T17:40:06.0717665-08:00;True|2025-01-16T17:31:32.8812538-08:00;False|2025-01-16T17:30:57.2641317-08:00;True|2025-01-16T16:00:38.6654417-08:00;False|2025-01-16T16:00:14.1734403-08:00;True|2025-01-16T15:55:23.0991795-08:00;True|2025-01-16T15:52:26.4429267-08:00;False|2025-01-16T15:52:03.1288884-08:00;True|2025-01-16T15:35:53.9001234-08:00;True|2025-01-03T21:42:23.0432923-08:00;False|2025-01-03T21:41:17.0945595-08:00;True|2025-01-03T18:13:15.3409116-08:00;True|2024-02-05T12:23:28.1977648-08:00;True|2024-02-05T12:21:34.9235274-08:00;True|2024-02-01T15:42:54.2254590-08:00;True|2024-01-29T15:03:06.1653431-08:00;True|2024-01-28T15:47:58.6027851-08:00;True|2024-01-28T14:33:50.8953476-08:00;True|2024-01-28T14:10:19.0446210-08:00;True|2024-01-28T12:55:16.0928757-08:00;True|2024-01-28T12:02:27.7739117-08:00;True|2024-01-22T11:35:12.6791997-08:00;False|2024-01-22T11:34:44.3695285-08:00;True|2024-01-22T11:26:53.3732139-08:00;True|2024-01-17T16:46:06.8073891-08:00;True|2024-01-17T16:40:01.8930979-08:00;True|2024-01-17T16:36:45.4743680-08:00;False|2024-01-17T16:35:46.2871381-08:00;True|2024-01-17T16:32:49.9260971-08:00;True|2024-01-17T15:51:07.6785570-08:00;True|2023-01-15T10:03:34.9429009-08:00;True|2023-01-13T15:32:29.0786054-08:00;True|2023-01-13T13:44:22.9670801-08:00;True|2023-01-13T13:39:23.2577343-08:00;True|2023-01-11T16:22:21.7056487-08:00;True|2023-01-09T17:43:18.0942444-08:00;True|2023-01-09T17:10:05.2680777-08:00;True|2023-01-09T16:58:11.9800758-08:00;True|2023-01-09T16:52:34.7173206-08:00;False|2023-01-09T16:52:04.3373239-08:00;True|2023-01-09T16:50:48.5146693-08:00;True|2023-01-09T16:43:37.1998148-08:00;True|2023-01-09T16:40:18.2580654-08:00;True|2023-01-06T17:30:01.5499471-08:00;True|2023-01-05T16:23:11.6370731-08:00;True|2023-01-05T16:07:40.6061968-08:00;True|2023-01-05T11:44:04.0838346-08:00;True|2023-01-04T21:45:38.9110403-08:00;True|2023-01-04T21:29:04.2896180-08:00;</History>
+    <History>True|2026-01-26T22:58:31.6836451Z;True|2026-01-22T18:35:40.4407373-08:00;False|2026-01-22T18:34:57.3842335-08:00;True|2026-01-22T18:30:38.6710142-08:00;True|2025-01-16T17:40:27.3170566-08:00;False|2025-01-16T17:40:06.0717665-08:00;True|2025-01-16T17:31:32.8812538-08:00;False|2025-01-16T17:30:57.2641317-08:00;True|2025-01-16T16:00:38.6654417-08:00;False|2025-01-16T16:00:14.1734403-08:00;True|2025-01-16T15:55:23.0991795-08:00;True|2025-01-16T15:52:26.4429267-08:00;False|2025-01-16T15:52:03.1288884-08:00;True|2025-01-16T15:35:53.9001234-08:00;True|2025-01-03T21:42:23.0432923-08:00;False|2025-01-03T21:41:17.0945595-08:00;True|2025-01-03T18:13:15.3409116-08:00;True|2024-02-05T12:23:28.1977648-08:00;True|2024-02-05T12:21:34.9235274-08:00;True|2024-02-01T15:42:54.2254590-08:00;True|2024-01-29T15:03:06.1653431-08:00;True|2024-01-28T15:47:58.6027851-08:00;True|2024-01-28T14:33:50.8953476-08:00;True|2024-01-28T14:10:19.0446210-08:00;True|2024-01-28T12:55:16.0928757-08:00;True|2024-01-28T12:02:27.7739117-08:00;True|2024-01-22T11:35:12.6791997-08:00;False|2024-01-22T11:34:44.3695285-08:00;True|2024-01-22T11:26:53.3732139-08:00;True|2024-01-17T16:46:06.8073891-08:00;True|2024-01-17T16:40:01.8930979-08:00;True|2024-01-17T16:36:45.4743680-08:00;False|2024-01-17T16:35:46.2871381-08:00;True|2024-01-17T16:32:49.9260971-08:00;True|2024-01-17T15:51:07.6785570-08:00;True|2023-01-15T10:03:34.9429009-08:00;True|2023-01-13T15:32:29.0786054-08:00;True|2023-01-13T13:44:22.9670801-08:00;True|2023-01-13T13:39:23.2577343-08:00;True|2023-01-11T16:22:21.7056487-08:00;True|2023-01-09T17:43:18.0942444-08:00;True|2023-01-09T17:10:05.2680777-08:00;True|2023-01-09T16:58:11.9800758-08:00;True|2023-01-09T16:52:34.7173206-08:00;False|2023-01-09T16:52:04.3373239-08:00;True|2023-01-09T16:50:48.5146693-08:00;True|2023-01-09T16:43:37.1998148-08:00;True|2023-01-09T16:40:18.2580654-08:00;True|2023-01-06T17:30:01.5499471-08:00;True|2023-01-05T16:23:11.6370731-08:00;True|2023-01-05T16:07:40.6061968-08:00;True|2023-01-05T11:44:04.0838346-08:00;True|2023-01-04T21:45:38.9110403-08:00;True|2023-01-04T21:29:04.2896180-08:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -44,10 +44,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:57:43</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>01/22/2026 18:35:35</publishTime>
+      <publishTime>01/26/2026 14:58:20</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>01/22/2026 18:35:35</publishTime>
+      <publishTime>01/26/2026 14:58:20</publishTime>
     </File>
     <File Include="bin/AspNet.ScriptManager.bootstrap.dll">
       <publishTime>01/11/2026 14:57:43</publishTime>
@@ -56,7 +56,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:57:43</publishTime>
     </File>
     <File Include="bin/cs/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/cs/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -68,7 +68,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/de/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/de/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -89,7 +89,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:57:43</publishTime>
     </File>
     <File Include="bin/es/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/es/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -101,7 +101,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -155,7 +155,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:57:43</publishTime>
     </File>
     <File Include="bin/it/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/it/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -167,7 +167,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/ja/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/ja/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -182,7 +182,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:58:02</publishTime>
     </File>
     <File Include="bin/ko/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/ko/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -263,7 +263,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:58:07</publishTime>
     </File>
     <File Include="bin/Microsoft.TeamFoundation.Common.dll">
-      <publishTime>01/11/2026 14:57:43</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/Microsoft.VisualStudio.Services.Client.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -302,7 +302,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:57:43</publishTime>
     </File>
     <File Include="bin/pl/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/pl/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -314,7 +314,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/pt-BR/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/pt-BR/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -329,7 +329,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:58:06</publishTime>
     </File>
     <File Include="bin/ru/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/ru/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -341,10 +341,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/SaintPolycarp.BanhChung.dll">
-      <publishTime>01/22/2026 18:35:13</publishTime>
+      <publishTime>01/26/2026 14:57:49</publishTime>
     </File>
     <File Include="bin/SaintPolycarp.BanhChung.pdb">
-      <publishTime>01/22/2026 18:35:13</publishTime>
+      <publishTime>01/26/2026 14:57:49</publishTime>
     </File>
     <File Include="bin/System.Buffers.dll">
       <publishTime>01/11/2026 14:58:06</publishTime>
@@ -437,7 +437,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:57:44</publishTime>
     </File>
     <File Include="bin/tr/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/tr/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -455,7 +455,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:57:44</publishTime>
     </File>
     <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/zh-Hans/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -467,7 +467,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Common.resources.dll">
-      <publishTime>01/11/2026 14:57:44</publishTime>
+      <publishTime>01/11/2026 14:58:05</publishTime>
     </File>
     <File Include="bin/zh-Hant/Microsoft.VisualStudio.Services.Client.resources.dll">
       <publishTime>01/11/2026 14:58:05</publishTime>
@@ -764,10 +764,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2026 14:57:42</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>01/22/2026 18:35:16</publishTime>
+      <publishTime>01/26/2026 14:57:54</publishTime>
     </File>
     <File Include="Readme.txt">
-      <publishTime>01/11/2026 16:17:25</publishTime>
+      <publishTime>01/26/2026 13:52:32</publishTime>
     </File>
     <File Include="SaleItems/SaleItems.json">
       <publishTime>01/11/2026 14:57:42</publishTime>
