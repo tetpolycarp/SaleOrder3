@@ -124,6 +124,7 @@ Items need to be done after Banh Chung done 2024:
 4. Submit the support ticket from the console to ask them to suspend/cancel the account
 5. Export all invoice/tracking sheet into excel then upload to google drive for archiving. Look back in previous year for reference. ("tetpolycarp" account, look into onenote for pwd) 
 6. Delete the old AMI (deregister AMI, then go to snapshot and delete it)
+7. Cancel ring account for camera
 
 Backlogs:
 list after 2025:
